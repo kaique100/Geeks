@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    
+    <!-- fim css  -->
+    
+    <!-- js  -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/menu-fixo.js"></script>
+    <script type="text/javascript" src="js/animacao.js"></script>
+    <!-- fim js  -->
+    <title>Contato | Geeks</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-seriF}
+        .content{display:flex;justify-content: center}
+        .contato{width:100%; max-width: 500px; }
+        .form{display: flex; flex-direction: column;}
+        .field{padding: 10px;margin-bottom: 15px;border:1px solid #DDD; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-size:16px}
+        .textarea{height: 150px;}
+    
+        </style>
+</head>
+<body>
+    <header id="topo-fixo">
+        <!--div - Divisão para o topo do site-->
+        <div class="site topo">        
+            <h1>Geeks!!! </h1>
+            <!-- <button class="abrir-menu"></button> -->
+            <!--Llogotipo da pagina-->
+            <a href="index.html"> 
+                <img class="logo" src="img/logo/GEEKS!.gif" alt="Logo Geeks" >
+            </a>
+            <!--Criação do menu-->
+            <nav>
+                <!-- <button class="fechar-menu"></button> -->
+                <ul>        <!--Lista de marcadores-->
+                    <li>
+                        <a href="index.html"> 
+                            <span class="icon iconHome"></span>  <!--Agrupa elemento na linha em um documento-->
+                            <span>Home</span>
+                        </a>
+                    </li>                 <!--Fim item da lista-->
+                    <li>
+                        <a href="Últimas Notícias.html">
+                            <span class=""></span> 
+                            <span>Últimas notícias</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Entretenimento.html">
+                            <span class=""></span>
+                            <span>Entretenimento </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Eventos.html">
+                            <span class=""></span>
+                            <span>Eventos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Contato.html">
+                            <span class=""></span>
+                            <span>Contato</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>    
+                   
+    </header>
+    <br>
+    <section class="content">
+
+        <div calss="Contato">
+             
+           <h3>Fale conosco e nos ajude a melhorar:</h3>
+           <br>
+           <form class="form" method="POST" action="./email.php">
+               <input class="field" name="Name" placeholder="Nome:">
+               <input class="field" name="Email" placeholder="E-mail:">
+               <textarea class="field" name="message" placeholder="Digite sua mensagem aqui:"></textarea>
+               <input class="field" type="submit" value= "Enviar">
+           </form>
+
+
+        </div>
+
+
+   </section>  
+
+   
+    
+
+    <footer class="rodape"> <!--Inicio do Rodapé da página-->
+        <div class="redes">
+            <a href="index.html"> 
+                <img class="logo" src="img/logo/GEEKS!.gif" alt="Logo Geeks" >
+            </a>
+             <p>“Que a Força esteja com você.” — Star Wars.</p>
+            <ul class="redesSocias">
+                <li><a href=""><img src="img/icon/icons8-facebook-60.png" alt=""></a></li>
+                <li><a href=""><img src="img/icon/icons8-instagram-60.png" alt=""></a></li>
+                <li><a href=""><img src="img/icon/icons8-reproduzir-youtube-60.png" alt=""></a></li>
+                <li><a href=""><img src="img/icon/icons8-twitter-60.png" alt=""></a></li>            
+                
+            </ul>
+        </div>
+    </footer> <!--FIM do rodapé-->
+    <h2 class="direitos">&copy;Todos os direitos reservados</h2>
+    
+</body>
+</html>
